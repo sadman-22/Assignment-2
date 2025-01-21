@@ -27,7 +27,7 @@
     color: rgb(1, 172, 253);
   }
 
-/* oink */
+/* pink */
 .pink-clr{
     color: rgb(5, 212, 223);
 }
@@ -35,6 +35,40 @@
 /* blue */
 .blue-clr{
     color: rgb(93, 88, 239);
+}
+
+.text-gray{
+    color: rgb(128, 128, 128);
+}
+
+/* read clr1 */
+.read-clr1{
+    color: rgb(100, 200, 255);
+}
+
+/* read clr2 */
+.read-clr2{
+    color: rgb(240, 170, 0);
+}
+
+/* read clr3 */
+.read-clr3{
+    color: rgb(135, 0, 255);
+}
+
+/* linear1 */
+.linear1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+/* linear2 */
+.linear2{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+/* linear3 */
+.linear3{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 
 
@@ -111,4 +145,50 @@
 .section-title{
     font-weight: 700;
     font-size: 3.5rem;
+}
+
+/* card related styles */
+.curriculum-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.curriculum-card{
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 245, 255);
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    width: 367.8px;
+    height: 476.78px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-head-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.curriculum-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.curriculum-description{
+    font-weight: 500;
+    font-size: .9rem;
+    width: 280px;
+}
+
+.read-more{
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    
 }
