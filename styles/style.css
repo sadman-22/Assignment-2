@@ -80,6 +80,11 @@
     background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 
+/* footer clr */
+.footer-clr{
+    background-color: rgb(1, 172, 253);
+}
+
 .btn-primary{
     border-radius: 12px;
     background: rgb(17, 17, 17);
@@ -234,9 +239,16 @@
     width: 180px;
     height: 50px;
     text-align: center;
+    margin-left: 40px;
+    margin-top: -25px;
 }
 
 /* story card */
+.stories{
+    width: 1440px;
+    margin: 0 auto;   
+}
+
 .card-img{
     border-radius: 16px 16px 0px 0px
 }
@@ -249,6 +261,39 @@
     text-align: left;
 }
 
+.short-stories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.short-story{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 20px;
+}
+
+
+/* footer section */
+.footer-title{
+    font-weight: 700;
+    font-size: 2.625;
+    color: white;
+}
+
+.footer-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.footer-about{
+    color: white;
+}
+
+.footer-content{
+    width: 1440px;
+    margin: 0 auto;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
