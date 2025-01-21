@@ -327,6 +327,11 @@
     gap: 20px;
 }
 
+.view-btn{
+    justify-content: center;
+    align-items: center;
+}
+
 /* footer section */
 .footer-title{
     font-weight: 700;
