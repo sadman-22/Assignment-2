@@ -229,6 +229,7 @@
     border-radius: 16px;
     background: rgb(255, 255, 255);
     width: 540px;
+    height: 630px;
 }
 
 #date{
@@ -237,6 +238,51 @@
     background: rgb(60, 216, 232);
     color: white;
     width: 180px;
+    height: 50px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+
+#date-1{
+    border-radius: 47.93px;
+    border: none;
+    background-color: rgb(149, 178, 38);
+    color: white;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+#date-2{
+    border-radius: 47.93px;
+    border: none;
+    background-color: rgb(93, 88, 240);
+    color: white;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+#date-3{
+    border-radius: 47.93px;
+    border: none;
+    background-color: rgb(149, 178, 38);
+    color: white;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+#date-4{
+    border-radius: 47.93px;
+    border: none;
+    background-color: rgb(149, 178, 38);
+    color: white;
+    width: 130px;
     height: 50px;
     text-align: center;
     margin-left: 40px;
@@ -264,6 +310,9 @@
 .short-stories{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 290px;
+    height: 180px;
 }
 
 .short-story{
@@ -272,6 +321,11 @@
     gap: 20px;
 }
 
+.main-stories{
+    width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
 
 /* footer section */
 .footer-title{
