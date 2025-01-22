@@ -19,11 +19,11 @@ header{
     margin: 0 auto;
 }
 
-.flex{
+.display-flex{
     display: flex;
 }
 
-.navigation{
+.navbar{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
@@ -43,6 +43,18 @@ header{
     font-size: 1.25rem;
     margin-right: 15%;
     font-weight: 500;
+}
+
+.marquee-container {
+    background-color: #fdf6e4;
+    border: 2px solid #e1cfaf; 
+    border-radius: 10px; 
+    padding: 10px;
+    width: 80%; 
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: 1.25rem;
 }
 
 /* nav clr */
@@ -142,6 +154,7 @@ header{
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* curriculum box */
 .curriculum-box-1{
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
